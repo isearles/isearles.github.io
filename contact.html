@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="resume styles/contact.css">
+    <link rel="stylesheet" href="resume styles/common.css">
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="contact/script.js"></script>
+</head>
+
+<body>
+    <div class="header-bar">
+        <div class="name">
+            <div class="first-name">
+                <h1>Ian</h1>
+            </div>
+
+            <div class="last-name">
+                <h1>Searles</h1>
+            </div>
+        </div>
+
+        <div class="portrait">
+            <img src="images\Helicopter-smile.jpg" alt="Portrait">
+        </div>
+        
+        <div class="nav-links">
+            <div class="nav-link">
+                <a href="Main.html">Resume</a>
+            </div>
+
+            <div class="nav-link">
+                <a href="Contact.html">Contact</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact-content">
+
+        <div class="contact-info">
+
+            <div class="info-title">
+                <h1>How to get ahold of me:</h1>
+            </div>
+
+            <div class="address">
+                <h3>1255 E La Jolla Dr.</h3> 
+                <h3>Tempe, Arizona 85282</h3>
+            </div>
+
+            <div class="personal-email">
+                <h3>iansearles@ymail.com</h3>
+            </div>
+
+            <div class="phone-number">
+                <h3>(563) 581-7552</h3>
+            </div>
+        </div>
+
+
+        <div class="contact-form">
+
+            <div class="form-title">
+                <h1>Contact me for inquiries!</h1>
+            </div>
+
+            <div class="form">
+                
+                <div class="form-function">
+                    <form onsubmit="return false">
+                    </form>
+                </div>
+
+                <div class="form-fields">
+
+                    <div class="first-name">
+                        <input type="text" placeholder="Enter your first name" id="firstName" />
+                    </div>
+                                     
+                    <div class="last-name">
+                        <input type="text" placeholder="Enter your last name" id="lastName" />
+                    </div>
+                    
+                    <div class="email-address">
+                        <input type="email" placeholder="Enter your email address" id="emailAddress">
+                    </div>
+
+                    <div class="message-box">
+                        <textarea placeholder="Send me a message!" id="message" rows="9"></textarea>
+                    </div>
+                    
+                    <div class="submit-button">
+                        <button onclick="sendMessage();">Send Message</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
