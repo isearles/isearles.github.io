@@ -1,0 +1,27 @@
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-content > .contact-info > .info-title {
+    margin-top: 30px;
+    margin-bottom: -30;
+}
+
+.contact-content > .contact-info {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+}
+
+.contact-content > .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 50px;
+    margin-top: 30px;
+}
